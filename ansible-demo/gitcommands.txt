@@ -1,0 +1,13 @@
+ 556  yum install git -y
+  557  git init
+  558  git status
+  559  git add .
+  560  git commit -m"My First Commit"
+  561  git remote add origin https://github.com//DevopsPracticals.git
+  562  pwd
+  563  git push -u origin master
+  564  ls -ltr
+  565  ls -ltr /root/.ssh/
+  566  cat /root/.ssh/id_rsa.pub
+  567  git remote set-url origin git@gh/DevopsPracticals.git
+  568  git push
